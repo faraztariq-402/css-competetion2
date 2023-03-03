@@ -1,0 +1,21 @@
+.main{
+    display: grid;
+    grid-template-rows: 75px 500px;
+    grid-template-columns: repeat(1,1fr);
+}
+
+
+.navitem{
+    background-color: aqua;
+    grid-column: 1/-1;
+}
+.item1{
+    background-image: url(./images/Pepsi_Zero_Sugar_Reformulation.jpg);
+    background-size:  contain ;
+    background-repeat: no-repeat;
+}
+@media screen and (min-width:887px) {
+    .item1{
+        background-size: cover
+    }
+}
